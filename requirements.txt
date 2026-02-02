@@ -1,3 +1,2 @@
-python -m pip install --upgrade pip setuptools wheel
 aiogram==3.4.1
-asyncio
+pydantic-core>=2.7.5
