@@ -5,11 +5,11 @@ from aiogram.filters.command import CommandStart
 from aiogram.filters import Command
 from handlers import user
 
-TOKEN = "7988253030:AAFp18gIfweRt3jpvNAiZhFOYlojjXA-NS4"
+TOKEN = ""
 
 async def main():
 
-    TOKEN = "7988253030:AAFp18gIfweRt3jpvNAiZhFOYlojjXA-NS4"             
+    TOKEN = ""             
     bot = Bot(token=TOKEN)
     dp = Dispatcher()
     dp.include_router(user)
@@ -20,4 +20,5 @@ if __name__ == "__main__":
     try:
         asyncio.run(main())
     except KeyboardInterrupt:
+
         print("Bot stopped")
