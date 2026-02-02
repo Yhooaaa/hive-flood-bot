@@ -1,2 +1,2 @@
 aiogram==3.4.1
-pydantic-core>=2.7.5
+pydantic-core==2.14.6
