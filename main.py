@@ -4,7 +4,7 @@ from aiogram import Bot, Dispatcher
 from handlers import user
 
 async def main():
-    TOKEN = os.getenv("BOT_TOKEN")  # берём токен из переменных окружения
+    TOKEN = os.getenv("BOT_TOKEN") 
 
     if not TOKEN:
         raise ValueError("BOT_TOKEN not found in environment variables")
@@ -20,3 +20,4 @@ if __name__ == "__main__":
         asyncio.run(main())
     except KeyboardInterrupt:
         print("Bot stopped")
+
